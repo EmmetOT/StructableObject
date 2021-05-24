@@ -26,3 +26,7 @@ And likewise, create a Custom Editor class:
 The final ScriptableObject appears and works exactly as though you had put the fields right in a ScriptableObject, including supporting undo.
 
 ![image](https://user-images.githubusercontent.com/18707147/119384277-5c19cb80-bcbc-11eb-8b0e-6693f1a2cba3.png)
+
+The struct can be accessed in code via the .Data property on the StructableObject, but sometimes I add passthrough properties to make it even more seamless.
+
+![image](https://user-images.githubusercontent.com/18707147/119384440-a00cd080-bcbc-11eb-83b4-e090dfb85ff9.png)
