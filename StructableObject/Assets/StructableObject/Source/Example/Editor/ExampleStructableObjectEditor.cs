@@ -6,5 +6,5 @@ using UnityEditor;
 namespace StructableObject
 {
     [CustomEditor(typeof(ExampleStructableObject))]
-    public class ExampleStructableObjectEditor : StructableObjectEditor<ExampleStructableObjectData> { }
+    public class ExampleStructableObjectEditor : StructableObjectEditor { }
 }

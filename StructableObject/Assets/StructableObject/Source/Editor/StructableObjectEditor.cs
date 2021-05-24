@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 namespace StructableObject
 {
-    public abstract class StructableObjectEditor<T> : Editor
+    public abstract class StructableObjectEditor : Editor
     {
         private const string SCRIPT_PROPERTY_NAME = "m_Script";
         private const string STRUCT_PROPERTY_NAME = "m_data";
