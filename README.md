@@ -21,7 +21,7 @@ Inherit from StructableObject, giving this struct as a type parameter:
 
 And likewise, create a Custom Editor class:
 
-![image](https://user-images.githubusercontent.com/18707147/119384203-3e4c6680-bcbc-11eb-984c-6681c3f6bddc.png)
+![image](https://user-images.githubusercontent.com/18707147/119385001-6b4d4900-bcbd-11eb-83cb-45862862aa22.png)
 
 The final ScriptableObject appears and works exactly as though you had put the fields right in a ScriptableObject, including supporting undo.
 
