@@ -3,7 +3,7 @@ StructableObject is a wrapper for Unity's ScriptableObject system. It basically 
 
 # Why
 
-Let's say you have a simple struct which represents some simple data package. This could be damage information (how much HP, whether it's poison, the damage source...), an enemy AI profile, any small bit of data. 
+Let's say you have a simple struct which represents some data package. This could be damage information (how much HP, whether it's poison, the damage source...), an enemy AI profile, any small bit of data. 
 
 You want to make it so your designers can easily modify this information, so you put it in a ScriptableObject. However, your programmers also want to be able to easily create instances of these data objects at runtime with any kind of modification. Maybe your player gets a damage buff so all your projectiles now take 2x HP. There are many solutions for this. You can create ScriptableObjects without saving them as Unity assets, but that has a lot of overhead. You can make interfaces, but that could require some refactoring and it's a pain when you want to add or remove variables to your data.
 
